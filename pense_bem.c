@@ -134,7 +134,7 @@ void modo_livro() {
     limpar_tela();
     mostrar_cabecalho();
     printf(MAGENTA "--- MODO LIVRO ---\n" RESET);
-    printf("Insira o codigo do livro (1 ou 2): ");
+    printf("Insira o codigo do livro (022 ou 013): ");
     scanf("%d", &codigo_livro);
 
     if (codigo_livro == 022) {
